@@ -1,12 +1,31 @@
-# React + Vite
+# 💱 MONEX – Modern Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **MONEX**, your sleek, fast, and modern currency converter web app! 🌐💸  
 
-Currently, two official plugins are available:
+Convert currencies effortlessly with real-time exchange rates fetched from **[ExchangeRate-API](https://www.exchangerate-api.com/)**. Designed to be **responsive, eye-catching, and user-friendly**, MONEX makes currency conversion as simple as a few clicks.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🎨 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Real-time conversion** using reliable exchange rate API  
+- **Formatted currency output** with thousands separator and decimals  
+- **Swap currencies** instantly with a single click  
+- **Responsive UI/UX** – works beautifully on mobile, tablet, and desktop  
+- **Modern UI** with Tailwind CSS gradients, shadows, and hover effects  
+- **Error handling** and loading states for smooth experience  
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Frontend | React.js (JSX + Hooks) |
+| Styling | Tailwind CSS v4 (modern, responsive design) |
+| API | [ExchangeRate-API](https://www.exchangerate-api.com/) |
+| State Management | React `useState` & `useEffect` |
+| Icons | react-icons (for swap and UI icons) |
+| Build Tool | Vite (fast development & hot reload) |
+
+---
